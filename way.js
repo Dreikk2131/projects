@@ -11,7 +11,7 @@ var fs = require("fs");
     function add(res, arr, answerUrl){
         if (answerUrl.pathname !== "/favicon.ico"){
             arr.push(answerUrl.search.substr(1));}
-            console.log("Add connect");
+            console.log("Add connecting");
             res.end(answerUrl.search.substr(1))
     };
 
